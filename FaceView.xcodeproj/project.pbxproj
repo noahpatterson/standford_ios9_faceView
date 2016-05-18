@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		5A3A74441CEC7C65009F6C83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3A74431CEC7C65009F6C83 /* AppDelegate.swift */; };
-		5A3A74461CEC7C65009F6C83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3A74451CEC7C65009F6C83 /* ViewController.swift */; };
+		5A3A74461CEC7C65009F6C83 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3A74451CEC7C65009F6C83 /* FaceViewController.swift */; };
 		5A3A74491CEC7C65009F6C83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A3A74471CEC7C65009F6C83 /* Main.storyboard */; };
 		5A3A744B1CEC7C65009F6C83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A3A744A1CEC7C65009F6C83 /* Assets.xcassets */; };
 		5A3A744E1CEC7C65009F6C83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A3A744C1CEC7C65009F6C83 /* LaunchScreen.storyboard */; };
+		5A3A74571CEC7DBC009F6C83 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3A74561CEC7DBC009F6C83 /* FaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5A3A74401CEC7C65009F6C83 /* FaceView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A3A74431CEC7C65009F6C83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5A3A74451CEC7C65009F6C83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A3A74451CEC7C65009F6C83 /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
 		5A3A74481CEC7C65009F6C83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A3A744A1CEC7C65009F6C83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A3A744D1CEC7C65009F6C83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A3A744F1CEC7C65009F6C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A3A74561CEC7DBC009F6C83 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		5A3A74421CEC7C65009F6C83 /* FaceView */ = {
 			isa = PBXGroup;
 			children = (
-				5A3A74431CEC7C65009F6C83 /* AppDelegate.swift */,
-				5A3A74451CEC7C65009F6C83 /* ViewController.swift */,
+				5A3A74451CEC7C65009F6C83 /* FaceViewController.swift */,
 				5A3A74471CEC7C65009F6C83 /* Main.storyboard */,
+				5A3A74561CEC7DBC009F6C83 /* FaceView.swift */,
+				5A3A74551CEC7C7A009F6C83 /* supporting_files */,
+			);
+			path = FaceView;
+			sourceTree = "<group>";
+		};
+		5A3A74551CEC7C7A009F6C83 /* supporting_files */ = {
+			isa = PBXGroup;
+			children = (
+				5A3A74431CEC7C65009F6C83 /* AppDelegate.swift */,
 				5A3A744A1CEC7C65009F6C83 /* Assets.xcassets */,
 				5A3A744C1CEC7C65009F6C83 /* LaunchScreen.storyboard */,
 				5A3A744F1CEC7C65009F6C83 /* Info.plist */,
 			);
-			path = FaceView;
+			name = supporting_files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A3A74461CEC7C65009F6C83 /* ViewController.swift in Sources */,
+				5A3A74461CEC7C65009F6C83 /* FaceViewController.swift in Sources */,
 				5A3A74441CEC7C65009F6C83 /* AppDelegate.swift in Sources */,
+				5A3A74571CEC7DBC009F6C83 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
