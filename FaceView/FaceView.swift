@@ -22,7 +22,17 @@ class FaceView: UIView {
     @IBInspectable
     var color: UIColor = UIColor.blueColor() { didSet { setNeedsDisplay() } }
     @IBInspectable
-    var lineWidth: CGFloat = 5.0 { didSet { setNeedsDisplay() } }  
+    var lineWidth: CGFloat = 5.0 { didSet { setNeedsDisplay() } }
+    
+    func changeScale(recongizer: UIPinchGestureRecognizer) {
+        switch recongizer.state {
+        case .Changed, .Ended:
+            scale *= recongizer.scale
+            recongizer.scale = 1.0
+        default:
+            break
+        }
+    }
     
     // bounds is this UIView's coordinates system. Frame is this view within the superviews system. just width is the super view
     // must make a computed variable becasuse bounds has not been intitialized yet
