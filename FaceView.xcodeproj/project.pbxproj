@@ -14,6 +14,7 @@
 		5A3A744E1CEC7C65009F6C83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A3A744C1CEC7C65009F6C83 /* LaunchScreen.storyboard */; };
 		5A3A74571CEC7DBC009F6C83 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3A74561CEC7DBC009F6C83 /* FaceView.swift */; };
 		5A3A74591CEDD2FC009F6C83 /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3A74581CEDD2FB009F6C83 /* FacialExpression.swift */; };
+		5A657F291D02F06100DD19EA /* EmotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A657F281D02F06100DD19EA /* EmotionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5A3A744F1CEC7C65009F6C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A3A74561CEC7DBC009F6C83 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 		5A3A74581CEDD2FB009F6C83 /* FacialExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
+		5A657F281D02F06100DD19EA /* EmotionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		5A3A74421CEC7C65009F6C83 /* FaceView */ = {
 			isa = PBXGroup;
 			children = (
+				5A657F281D02F06100DD19EA /* EmotionsViewController.swift */,
 				5A3A74451CEC7C65009F6C83 /* FaceViewController.swift */,
 				5A3A74471CEC7C65009F6C83 /* Main.storyboard */,
 				5A3A74561CEC7DBC009F6C83 /* FaceView.swift */,
@@ -151,6 +154,7 @@
 			files = (
 				5A3A74461CEC7C65009F6C83 /* FaceViewController.swift in Sources */,
 				5A3A74591CEDD2FC009F6C83 /* FacialExpression.swift in Sources */,
+				5A657F291D02F06100DD19EA /* EmotionsViewController.swift in Sources */,
 				5A3A74441CEC7C65009F6C83 /* AppDelegate.swift in Sources */,
 				5A3A74571CEC7DBC009F6C83 /* FaceView.swift in Sources */,
 			);
@@ -304,6 +308,7 @@
 				5A3A74541CEC7C65009F6C83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

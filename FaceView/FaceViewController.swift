@@ -77,6 +77,7 @@ class FaceViewController: UIViewController {
     private let eyebrowTilts = [FacialExpression.EyeBrows.Relaxed:0.5,.Normal:0.0,.Furrowed:-0.5]
     
     private func updateUI() {
+        if faceView != nil {
         switch expression.eyes {
         case .Open:      faceView.eyesOpen = true
         case .Closed:    faceView.eyesOpen = false
@@ -87,6 +88,8 @@ class FaceViewController: UIViewController {
         faceView.eyeBrowTilt = eyebrowTilts[expression.eyeBrows] ?? 0.0
         
         faceView.lineWidth = CGFloat(1.0)
+            
+        }
     }
     
 }
