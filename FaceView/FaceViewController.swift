@@ -92,5 +92,7 @@ class FaceViewController: UIViewController {
         }
     }
     
+    let instance = getFaceMVCinstanceCount()
+    
 }
 

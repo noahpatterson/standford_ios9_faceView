@@ -6,6 +6,8 @@
 //  Copyright © 2016 Noah Patterson. All rights reserved.
 //
 
+//model
+
 import UIKit
 
 @IBDesignable
